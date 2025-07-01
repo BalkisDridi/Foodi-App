@@ -1,0 +1,40 @@
+.card {
+  border: 2px solid black;
+  padding: 16px;
+  border-radius: 12px;
+  width: 200px;
+  text-align: center;
+}
+.read-the-docs {
+  color: #888;
+}
+.Cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: auto;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.Salads {
+  display: flex;
+  gap: 1px;
+}
+.ButtonOrder {
+  background-color: #39db4a;
+  box-shadow: 0 4px 8px rgba(46, 204, 113, 0.2);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  top: "200px";
+  position: relative;
+}
+.ButtonOrder:hover {
+  background-color: #3fa649;
+}
